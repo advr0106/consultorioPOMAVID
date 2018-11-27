@@ -5,7 +5,9 @@
  */
 package main;
 
+
 import com.sun.awt.AWTUtilities;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -83,6 +85,7 @@ public class Splash extends javax.swing.JFrame implements Runnable{
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Splash.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
